@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Card1 from "./Card1"
+import Card2 from './Card2';
+import Card3 from './Card3';
+import "./Card.css"
+// flex flex-row items-center
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <div className="IconContanier">
+          <Card1/>
+          <Card2/>
+          <Card3/>
+      </div>
+    </React.Fragment>
   );
 }
 
