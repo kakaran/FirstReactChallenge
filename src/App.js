@@ -7,7 +7,7 @@ import "./Card.css"
 function App() {
   return (
     <React.Fragment>
-      <div className="IconContanier">
+      <div className="cardContanier">
           <Card1/>
           <Card2/>
           <Card3/>

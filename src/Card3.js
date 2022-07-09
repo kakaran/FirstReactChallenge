@@ -9,7 +9,7 @@ export default function Card3()
                 <div className="w-9 h-9 mb-4 rounded-full bg-[#003432]"><img src={luxury} alt="Sedan" className="CardIcon width-180"/></div>
                 <h1 className="pt-3.5 pb-3.5 text-2xl uppercase text-white font-Dosia font-semibold	">luxury</h1>
                 <p className="pt-3.5 pb-3.5 text-sm text-white font-semibold">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style. </p>
-                <button className="text-[#023230] bg-white p-3 w-32 rounded-full font-semibold mt-5 ">Learn More</button>
+                <button className="text-[#023230] bg-white p-3 w-32 rounded-full font-semibold mt-5 hover:bg-[#023230] hover:text-white hover:border hover:border-white">Learn More</button>
             </div>
         </>
     ); 
